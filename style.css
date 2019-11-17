@@ -76,7 +76,7 @@ header section h1 {
 }
 
 .main-product-content {
-    width: 90%;
+    width: 96%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -85,7 +85,7 @@ header section h1 {
 .main-product-content .filters {
     width:calc(27% - 50px);
     height: auto;
-    padding: 30px 25px;
+    padding: 10px 25px 10px 25px;
     background: white;
     margin: 50px 0px;
     border-radius: 30px;
@@ -125,6 +125,12 @@ header section h1 {
 .list-group-item:hover {
     color: #007E3E;
     padding-left: 9px;
+}
+
+
+.selectedItem{
+    color: #007E3E!important;
+    padding-left: 9px!important;
 }
 
 .col-md-6 {
